@@ -9,7 +9,9 @@ docker run --rm --name 9-bullseye  -e POSTGRES_PASSWORD=docker -d -p 5432:5432 -
 
 ## connect to pg running on Docker
 
+```
 psql -h localhost -p 5432 -U postgres
+```
 
 ## pg setup
 
